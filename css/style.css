@@ -217,3 +217,150 @@
     border: solid red;
     margin-left: 130px;
 }
+
+/* 25 Formatação de texto */
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remover-underline {
+    text-decoration: none;
+    color: purple;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+.spacing {
+    letter-spacing: 5px;
+}
+.serif {
+    font-family: georgia;
+}
+.sans-serif {
+    font-family: helvetica;
+}
+.monospace {
+    font-family: "courier new";
+}
+.cursive {
+    font-family: cursive;
+}
+.fantasy {
+    font-family: fantasy;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+.thin, .bold, .bolder {
+    font-family: helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+.bold {
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 900;
+}
+.small {
+    font-size: 6px;
+}
+.big {
+    font-size:78px;
+}
+
+/* 26 Display e Posições */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #333;
+    margin: 10px;
+    color: white;
+    display: block;
+}
+
+.invisible {
+    background-color: #a5f;
+    display: none;
+}
+
+.static {
+    background-color: #4f8;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    position: static;
+}
+
+.relative {
+    background-color: #224;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    color: #fff;
+}
+
+
+
+.relative-container {
+
+}
+
+.absolute {
+        position: absolute;
+        background-color: #964;
+        color: #fff;
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        right: 20px;
+}
+
+.absolute-2 {
+
+}
+
+.fixed {
+
+}
+
+.relative-container {
+
+}
+
+.absolute-3 {
+
+}
+
+.absolute-4 {
+
+}
+
+.absolute-5 {
+
+}
+
